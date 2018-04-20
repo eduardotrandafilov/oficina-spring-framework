@@ -10,7 +10,6 @@ public class VinhosController {
 	
 	@GetMapping("/novo")
 	public String novo() {
-		return "vinhos/cadastro-vinho";
-		
+		return "vinhos/cadastro-vinho";		
 	}
 }
